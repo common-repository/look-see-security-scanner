@@ -1,0 +1,2621 @@
+# WordPress Blank Pot
+# Copyright (C) 2014 ...
+# This file is distributed under the GNU General Public License v2 or later.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Look-"
+"See Security Scanner\n"
+"POT-Creation-Date: "
+"2019-02-25 11:24-0800\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Your "
+"Name <you@example.com>\n"
+"Language-Team: "
+"Blobfolio, LLC "
+"<hello@blobfolio.com>\n"
+"Report-Msgid-Bugs-To: "
+"Translator Name "
+"<translations@example."
+"com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/"
+"plain; charset=UTF-8\n"
+"Content-Transfer-"
+"Encoding: 8bit\n"
+"Plural-Forms: "
+"nplurals=2; plural=n != "
+"1;\n"
+"X-Textdomain-Support: "
+"yesX-Generator: Poedit "
+"1.6.4\n"
+"X-Poedit-SourceCharset: "
+"UTF-8\n"
+"X-Poedit-KeywordsList: "
+"__;_e;esc_html_e;"
+"esc_html_x:1,2c;"
+"esc_html__;esc_attr_e;"
+"esc_attr_x:1,2c;"
+"esc_attr__;_ex:1,2c;"
+"_nx:4c,1,2;"
+"_nx_noop:4c,1,2;_x:1,2c;"
+"_n:1,2;_n_noop:1,2;"
+"__ngettext:1,2;"
+"__ngettext_noop:1,2;_c,"
+"_nc:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"Language: en_US\n"
+"X-Generator: Poedit "
+"2.1.1\n"
+"X-Poedit-"
+"SearchPath-0: .\n"
+"X-Poedit-"
+"SearchPathExcluded-0: ."
+"sass-cache\n"
+"X-Poedit-"
+"SearchPathExcluded-1: "
+"css\n"
+"X-Poedit-"
+"SearchPathExcluded-2: "
+"img\n"
+"X-Poedit-"
+"SearchPathExcluded-3: "
+"js\n"
+"X-Poedit-"
+"SearchPathExcluded-4: "
+"node_modules\n"
+"X-Poedit-"
+"SearchPathExcluded-5: "
+"scss\n"
+"X-Poedit-"
+"SearchPathExcluded-6: "
+"skel\n"
+"X-Poedit-"
+"SearchPathExcluded-7: "
+"lib/vendor\n"
+
+#: admin/analysis.php:25
+#: lib/blobfolio/wp/looksee/cli.php:151
+#: lib/blobfolio/wp/looksee/cli.php:230
+msgid "Plugin"
+msgstr ""
+
+#: admin/analysis.php:33
+#: lib/blobfolio/wp/looksee/cli.php:159
+msgid "Theme"
+msgstr ""
+
+#: admin/analysis.php:42
+#: admin/analysis.php:150
+#: lib/blobfolio/wp/looksee/cli.php:69
+msgid ""
+"Administrator Accounts"
+msgstr ""
+
+#: admin/analysis.php:46
+#: lib/blobfolio/wp/looksee/cli.php:71
+#, php-format
+msgid ""
+"Generic usernames like "
+"\"admin\" or "
+"\"administrator\" are "
+"present and should be "
+"renamed. Plugins like %s "
+"(pro) and %s can help "
+"with this."
+msgstr ""
+
+#: admin/analysis.php:53
+#: admin/analysis.php:157
+#: lib/blobfolio/wp/looksee/cli.php:79
+msgid ""
+"Authentication Salts & "
+"Keys"
+msgstr ""
+
+#: admin/analysis.php:57
+#: lib/blobfolio/wp/looksee/cli.php:81
+#, php-format
+msgid ""
+"Your site contains weak "
+"and/or missing "
+"authentication salts. "
+"Visit %s and copy the "
+"output into %s."
+msgstr ""
+
+#: admin/analysis.php:58
+#: admin/analysis.php:80
+#: admin/analysis.php:81
+#: admin/analysis.php:102
+#: admin/analysis.php:113
+#: lib/blobfolio/wp/looksee/admin.php:53
+#: lib/blobfolio/wp/looksee/admin.php:130
+msgid "here"
+msgstr ""
+
+#: admin/analysis.php:64
+#: admin/analysis.php:169
+#: lib/blobfolio/wp/looksee/cli.php:89
+msgid "Database Prefix"
+msgstr ""
+
+#: admin/analysis.php:68
+#: lib/blobfolio/wp/looksee/cli.php:91
+#, php-format
+msgid ""
+"Your site is currently "
+"using the default table "
+"prefix, %s. It is not "
+"completely "
+"straightforward to "
+"retroactively fix this, "
+"however %s can point you "
+"in the right direction."
+msgstr ""
+
+#: admin/analysis.php:70
+msgid "this tutorial"
+msgstr ""
+
+#: admin/analysis.php:75
+#: admin/analysis.php:175
+#: lib/blobfolio/wp/looksee/cli.php:99
+msgid "Directory Listing"
+msgstr ""
+
+#: admin/analysis.php:79
+#: lib/blobfolio/wp/looksee/cli.php:101
+#, php-format
+msgid ""
+"Your site currently "
+"lists directory "
+"contents. For example, "
+"click %s. For "
+"information on how to "
+"fix this, visit %s."
+msgstr ""
+
+#: admin/analysis.php:86
+#: admin/analysis.php:183
+#: lib/blobfolio/wp/looksee/cli.php:109
+msgid "File Editor"
+msgstr ""
+
+#: admin/analysis.php:90
+#: lib/blobfolio/wp/looksee/cli.php:111
+#, php-format
+msgid ""
+"The editor is currently "
+"enabled on your site. To "
+"disable it, add the "
+"following code to %s:"
+msgstr ""
+
+#: admin/analysis.php:97
+#: admin/analysis.php:187
+#: lib/blobfolio/wp/looksee/cli.php:119
+msgid "File Scans"
+msgstr ""
+
+#: admin/analysis.php:101
+#: lib/blobfolio/wp/looksee/cli.php:121
+#, php-format
+msgid ""
+"You have not completed a "
+"file scan recently. "
+"Click %s to do that now."
+msgstr ""
+
+#: admin/analysis.php:107
+#: admin/analysis.php:190
+#: lib/blobfolio/wp/looksee/cli.php:128
+msgid "SSL"
+msgstr ""
+
+#: admin/analysis.php:110
+#: lib/blobfolio/wp/looksee/cli.php:129
+msgid ""
+"It appears that your "
+"site might not be fully "
+"protected with SSL. Look-"
+"See is not able to "
+"determine this with 100% "
+"accuracy, so if this "
+"assessment is wrong, "
+"please ignore it."
+msgstr ""
+
+#: admin/analysis.php:112
+#: lib/blobfolio/wp/looksee/cli.php:131
+#, php-format
+msgid ""
+"Otherwise, you're in for "
+"a treat! For a rundown "
+"on how to get an "
+"existing WordPress web "
+"site up and running over "
+"SSL, click %s."
+msgstr ""
+
+#: admin/analysis.php:118
+#: admin/analysis.php:195
+#: lib/blobfolio/wp/looksee/cli.php:138
+msgid "SVG"
+msgstr ""
+
+#: admin/analysis.php:122
+#: lib/blobfolio/wp/looksee/cli.php:140
+#, php-format
+msgid ""
+"SVG support has been "
+"manually enabled for "
+"your site, leaving you "
+"at extreme risk. In "
+"order to protect "
+"yourself, please install "
+"%s."
+msgstr ""
+
+#: admin/analysis.php:128
+#: admin/analysis.php:202
+#: lib/blobfolio/wp/looksee/cli.php:164
+#: lib/blobfolio/wp/looksee/cli.php:168
+msgid ""
+"Inactive Plugins & Themes"
+msgstr ""
+
+#: admin/analysis.php:131
+#: lib/blobfolio/wp/looksee/cli.php:165
+msgid ""
+"The following inactive "
+"content is still "
+"publicly accessible on "
+"your server. You should "
+"fully delete any content "
+"you are not using."
+msgstr ""
+
+#: admin/analysis.php:136
+#: admin/analysis.php:205
+#: lib/blobfolio/wp/looksee/cli.php:173
+msgid ""
+"Updates & Security "
+"Patches"
+msgstr ""
+
+#: admin/analysis.php:140
+#: lib/blobfolio/wp/looksee/cli.php:175
+#, php-format
+msgid ""
+"Your copy of WordPress "
+"is not fully up-to-date. "
+"Please head on over to "
+"%s to apply all "
+"available updates."
+msgstr ""
+
+#: admin/analysis.php:141
+msgid "the update page"
+msgstr ""
+
+#: admin/analysis.php:152
+#, php-format
+msgid ""
+"WordPress' popularity "
+"makes it a strong target "
+"for automated, %s login "
+"attacks. The vast "
+"majority of these "
+"attacks are waged by "
+"rather stupid robots "
+"that assume the "
+"existence of default "
+"usernames like \"admin\" "
+"or \"administrator\"."
+msgstr ""
+
+#: admin/analysis.php:153
+msgid "brute-force"
+msgstr ""
+
+#: admin/analysis.php:155
+msgid ""
+"By not having logins "
+"with these names, the "
+"vast majority of login "
+"attacks are moot."
+msgstr ""
+
+#: admin/analysis.php:159
+#, php-format
+msgid ""
+"WordPress uses site-"
+"defined %s to improve "
+"session security. It is "
+"important that each salt "
+"is defined in %s, and "
+"that that definition is "
+"strong."
+msgstr ""
+
+#: admin/analysis.php:160
+msgid "salts"
+msgstr ""
+
+#: admin/analysis.php:164
+#, php-format
+msgid ""
+"Don't try to think of "
+"random values on your "
+"own. Just visit %s and "
+"copy-and-paste the "
+"results into your %s."
+msgstr ""
+
+#: admin/analysis.php:171
+#, php-format
+msgid ""
+"%s attacks often require "
+"that the attacker "
+"already know the names "
+"of tables in the "
+"database. To help combat "
+"this, WordPress allows "
+"sites to prepend a "
+"custom prefix to each "
+"table name."
+msgstr ""
+
+#: admin/analysis.php:172
+msgid "SQL Injection"
+msgstr ""
+
+#: admin/analysis.php:177
+#, php-format
+msgid ""
+"Depending on the server "
+"configuration, if "
+"someone visits a "
+"directory that does not "
+"include a file named %s "
+"or %s, etc., in a web "
+"browser, the contents of "
+"that directory will be "
+"listed."
+msgstr ""
+
+#: admin/analysis.php:181
+msgid ""
+"This can make it much "
+"easier for attackers to "
+"gather information about "
+"the files on your server "
+"and better target their "
+"attacks."
+msgstr ""
+
+#: admin/analysis.php:184
+msgid ""
+"WordPress ships with a "
+"tool that allows site "
+"administrators to "
+"directly edit the code "
+"of themes, plugins, and "
+"other files on the "
+"server."
+msgstr ""
+
+#: admin/analysis.php:185
+msgid ""
+"If this tool is enabled "
+"and someone manages to "
+"break into WordPress, it "
+"will give them broader "
+"system access than they "
+"might otherwise have."
+msgstr ""
+
+#: admin/analysis.php:188
+msgid ""
+"It is important that you "
+"run frequent file scans "
+"of your site to ensure "
+"that everything is as it "
+"should be. But hey, "
+"that's what Look-See is "
+"for!"
+msgstr ""
+
+#: admin/analysis.php:191
+msgid ""
+"Without an SSL "
+"certificate, any "
+"communication between a "
+"visitor and your site "
+"can be intercepted by "
+"anybody else on the "
+"networks."
+msgstr ""
+
+#: admin/analysis.php:192
+msgid ""
+"This means things like "
+"login and other personal "
+"information can be "
+"stolen, but the "
+"corruption can work in "
+"the other direction too. "
+"Many cheap hotel, cafe, "
+"and airport networks, "
+"for example, will inject "
+"advertising into "
+"unencrypted pages, and "
+"sinister networks can "
+"even inject malware."
+msgstr ""
+
+#: admin/analysis.php:193
+msgid ""
+"Thus it is important "
+"that EVERY communication "
+"is encrypted, not just "
+"administrative areas."
+msgstr ""
+
+#: admin/analysis.php:197
+#, php-format
+msgid ""
+"Despite the massive "
+"popularity of the %s "
+"image format "
+"(particularly with "
+"modern web designers), "
+"WordPress does not allow "
+"them to be uploaded by "
+"default. As it turns "
+"out, SVG is insanely "
+"susceptible to malicious "
+"content and %s "
+"impossible to sanitize."
+msgstr ""
+
+#: admin/analysis.php:199
+msgid "almost"
+msgstr ""
+
+#: admin/analysis.php:203
+msgid ""
+"Any code on your server "
+"has the potential to "
+"contain exploitable "
+"vulnerabilities, even if "
+"it is part of a theme or "
+"plugin that is not "
+"currently \"active\"."
+msgstr ""
+
+#: admin/analysis.php:207
+#, php-format
+msgid ""
+"WordPress and its "
+"plugins and themes are "
+"%s. This is beneficial "
+"in that bugs and "
+"security issues can be "
+"identified and fixed "
+"more quickly, however in "
+"order for users to "
+"benefit, updates must be "
+"applied."
+msgstr ""
+
+#: admin/analysis.php:208
+msgid "open-source"
+msgstr ""
+
+#: admin/analysis.php:221
+#: lib/blobfolio/wp/looksee/admin.php:487
+#: lib/blobfolio/wp/looksee/admin.php:488
+msgid ""
+"Configuration Analysis"
+msgstr ""
+
+#: admin/analysis.php:229
+msgid "Issues"
+msgstr ""
+
+#: admin/analysis.php:234
+#: admin/scan.php:523
+#: admin/scan.php:700
+#: admin/scan.php:835
+#: lib/blobfolio/wp/looksee/cli/scan.php:329
+#: lib/blobfolio/wp/looksee/cli/scan.php:434
+#: lib/blobfolio/wp/looksee/cli/scan.php:482
+#: lib/blobfolio/wp/looksee/scan.php:1484
+msgid "Status"
+msgstr ""
+
+#: admin/analysis.php:235
+msgid "Configuration"
+msgstr ""
+
+#: admin/analysis.php:268
+msgid ""
+"WordPress ships with a "
+"lot of inherent "
+"vulnerabilities. Some of "
+"these issues are related "
+"to advanced "
+"functionality that many "
+"users won't end up "
+"using, while others are "
+"felt to be outside the "
+"scope of what the main "
+"software should handle."
+msgstr ""
+
+#: admin/analysis.php:269
+msgid ""
+"Regardless, most of "
+"these threats are "
+"completely unnecessary."
+msgstr ""
+
+#: admin/analysis.php:271
+#, php-format
+msgid ""
+"%s is a simple, "
+"educational security "
+"plugin designed to "
+"harden WordPress "
+"security and help "
+"mitigate active threats."
+msgstr ""
+
+#: admin/analysis.php:274
+msgid ""
+"Look-See will help you "
+"identify possible "
+"security issues, but is "
+"mostly a post-mortem "
+"tool. To keep attackers "
+"from gaining access to "
+"your site in the first "
+"place, Apocalypse Meow "
+"is a must."
+msgstr ""
+
+#: admin/pro.php:43
+msgid "Premium License"
+msgstr ""
+
+#: admin/pro.php:50
+msgid ""
+"Please ask your system "
+"administrator to enable "
+"the OpenSSL PHP "
+"extension. Without this, "
+"your site will be unable "
+"to decode and validate "
+"the license details "
+"itself. In the meantime, "
+"Look-See Security "
+"Scanner will try to "
+"offload this task to its "
+"own server. This should "
+"get the job done, but "
+"won't be as efficient "
+"and could impact "
+"performance a bit."
+msgstr ""
+
+#: admin/pro.php:56
+msgid ""
+"Your license has been "
+"saved!"
+msgstr ""
+
+#: admin/pro.php:65
+msgid "License Key"
+msgstr ""
+
+#: admin/pro.php:69
+msgid "Save"
+msgstr ""
+
+#: admin/pro.php:79
+msgid "The Pro Pitch"
+msgstr ""
+
+#: admin/pro.php:83
+#, php-format
+msgid ""
+"For the cost of an "
+"expensive sandwich, you "
+"can get a Look-See %s! "
+"It's the same great "
+"administrative tool, "
+"just more of it:"
+msgstr ""
+
+#: admin/pro.php:84
+msgid "Premium license"
+msgstr ""
+
+#: admin/pro.php:88
+msgid ""
+"Quick Actions: view "
+"source code, fix "
+"permission/ownership "
+"issues, ignore, or "
+"delete entries with the "
+"push of a button;"
+msgstr ""
+
+#: admin/pro.php:90
+#, php-format
+msgid ""
+"Complete %s integration;"
+msgstr ""
+
+#: admin/pro.php:96
+#, php-format
+msgid ""
+"To learn more, visit %s."
+msgstr ""
+
+#: admin/pro.php:104
+msgid "Your License"
+msgstr ""
+
+#: admin/pro.php:109
+msgid "Created"
+msgstr ""
+
+#: admin/pro.php:113
+msgid "Updated"
+msgstr ""
+
+#: admin/pro.php:117
+msgid "Revoked"
+msgstr ""
+
+#: admin/pro.php:121
+#: lib/blobfolio/wp/looksee/cli.php:228
+msgid "Name"
+msgstr ""
+
+#: admin/pro.php:125
+#: lib/blobfolio/wp/looksee/cli.php:215
+msgid "Company"
+msgstr ""
+
+#: admin/pro.php:129
+#: lib/blobfolio/wp/looksee/cli.php:220
+msgid "Email"
+msgstr ""
+
+#: admin/pro.php:133
+#: lib/blobfolio/wp/looksee/cli.php:235
+msgid "Type"
+msgstr ""
+
+#: admin/pro.php:137
+msgid "Thing"
+msgstr ""
+
+#: admin/pro.php:141
+msgid "Domain(s)"
+msgstr ""
+
+#: admin/pro.php:147
+msgid "Help"
+msgstr ""
+
+#: admin/pro.php:149
+msgid ""
+"Thanks for going Pro!"
+msgstr ""
+
+#: admin/pro.php:152
+#, php-format
+msgid ""
+"If you have any "
+"questions or need help, "
+"visit %s."
+msgstr ""
+
+#: admin/pro.php:163
+#: lib/blobfolio/wp/looksee/cli.php:222
+msgid "Freeload Edition"
+msgstr ""
+
+#: admin/pro.php:168
+#, php-format
+msgid ""
+"If you can't afford a %s "
+"or do not wish to "
+"purchase one, you can "
+"still enable premium "
+"functionality by "
+"clicking the button "
+"below."
+msgstr ""
+
+#: admin/pro.php:171
+msgid ""
+"If your situation "
+"changes in the future, "
+"you can always switch "
+"the registration to a "
+"real license. :)"
+msgstr ""
+
+#: admin/pro.php:176
+msgid "Enable"
+msgstr ""
+
+#: admin/pro.php:181
+msgid ""
+"The Freeload Edition has "
+"been enabled so you have "
+"access to all premium "
+"features. Hurray for "
+"Code Anarchy!"
+msgstr ""
+
+#: admin/pro.php:183
+#, php-format
+msgid ""
+"If you went ahead and "
+"purchased a %s — thanks! "
+"— just go ahead and "
+"replace the key and hit "
+"save."
+msgstr ""
+
+#: admin/pro.php:204
+#, php-format
+msgid "Impressed with %s?"
+msgstr ""
+
+#: admin/pro.php:205
+#, php-format
+msgid ""
+"You might also enjoy "
+"these other fine and "
+"practical plugins from "
+"%s."
+msgstr ""
+
+#: admin/scan.php:71
+msgid ""
+"Yay! This particular "
+"package had clean, "
+"authoritative source "
+"files available for use "
+"during this scan. No "
+"matter what state your "
+"server was in, file "
+"irregularities were easy "
+"to detect."
+msgstr ""
+
+#: admin/scan.php:72
+msgid ""
+"Note: WordPress does not "
+"maintain a proper "
+"release history for the "
+"themes and plugins it "
+"hosts, so this critical "
+"security feature will "
+"only work if your themes "
+"and plugins are up-to-"
+"date."
+msgstr ""
+
+#: admin/scan.php:76
+#, php-format
+msgid ""
+"You can skip any "
+"arbitrary file or "
+"directory. Paths should "
+"be relative to your "
+"site's base directory, "
+"so for example, to skip "
+"the file %s, enter %s. "
+"To skip the contents of "
+"a directory, use a "
+"wildcard character, like "
+"%s."
+msgstr ""
+
+#: admin/scan.php:82
+#, php-format
+msgid ""
+"You can also use "
+"wildcards to skip "
+"certain types of files. "
+"For example, you could "
+"use %s to avoid scanning "
+"any JPEG files in the "
+"uploads directory, or "
+"just %s to skip any JPEG "
+"files anywhere."
+msgstr ""
+
+#: admin/scan.php:89
+#, php-format
+msgid ""
+"Static cache files "
+"generated by plugins "
+"like %s and %s are "
+"probably not very useful "
+"to include in a scan. By "
+"their nature, they are "
+"short-lived, and will "
+"likely show up as "
+"\"modified\" every time "
+"a scan is performed. And "
+"because they are "
+"generated from dynamic "
+"theme and plugin content "
+"– which is also scanned "
+"– their inclusion is a "
+"bit redundant."
+msgstr ""
+
+#: admin/scan.php:94
+#, php-format
+msgid ""
+"When this option is "
+"enabled, files found in "
+"%s will be skipped."
+msgstr ""
+
+#: admin/scan.php:99
+msgid ""
+"This quick filter will "
+"auto-skip (most) images "
+"in your uploads "
+"directory. Images can be "
+"malicious, so in general "
+"you should include them "
+"in your scans."
+msgstr ""
+
+#: admin/scan.php:101
+msgid ""
+"But images can also be "
+"*big* and might pose "
+"problems for "
+"underpowered servers. "
+"Even on a strong server, "
+"an old site with a lot "
+"of content might end up "
+"taking unacceptably long "
+"to scan."
+msgstr ""
+
+#: admin/scan.php:102
+msgid ""
+"TL;DR if the scans are "
+"timing out or taking too "
+"long to complete, maybe "
+"try this option."
+msgstr ""
+
+#: admin/scan.php:105
+msgid ""
+"This quick filter will "
+"auto-skip (most) audio/"
+"video files in your "
+"uploads directory. Due "
+"to their large size, "
+"these files are not yet "
+"very common transmission "
+"vectors of malicious "
+"code — excepting "
+"pornography — and so are "
+"probably fairly safe to "
+"skip."
+msgstr ""
+
+#: admin/scan.php:107
+msgid ""
+"If your server is "
+"adequately powered and/"
+"or you don't have much "
+"in the way of audio/"
+"video content, leave "
+"this disabled. Otherwise "
+"if your server is having "
+"trouble completing "
+"scans, turn this on."
+msgstr ""
+
+#: admin/scan.php:110
+msgid ""
+"Malicious content is "
+"almost always going to "
+"be embedded in "
+"executable files like "
+"PHP scripts, which are "
+"relatively small."
+msgstr ""
+
+#: admin/scan.php:111
+msgid ""
+"Larger files, like "
+"images and video, are "
+"not likely targets and "
+"require more time and "
+"processing power to "
+"scan. On many low-end "
+"hosting environments, "
+"this can lead to timeout "
+"errors and other "
+"problems."
+msgstr ""
+
+#: admin/scan.php:112
+msgid ""
+"It is recommended "
+"everyone set a sane "
+"limit on the maximum "
+"file size that should be "
+"scanned. For VPS "
+"hosting, a value of 5MB "
+"or 10MB should be "
+"plenty. Shared hosting "
+"might need a lower "
+"limit, like 1MB or 2MB."
+msgstr ""
+
+#: admin/scan.php:113
+msgid ""
+"To disable the cap and "
+"scan everything, set the "
+"value to 0MB."
+msgstr ""
+
+#: admin/scan.php:116
+msgid ""
+"In-depth file scanning "
+"is a resource-intensive "
+"task and so is executed "
+"in workable chunks. This "
+"option specifies the "
+"number of files to "
+"attempt to scan in a "
+"single pass."
+msgstr ""
+
+#: admin/scan.php:117
+msgid ""
+"If you are frequently "
+"receiving timeout errors "
+"when running scans, try "
+"decreasing this number."
+msgstr ""
+
+#: admin/scan.php:120
+msgid ""
+"Thousands of records "
+"might be added to the "
+"database each time a "
+"file scan is performed. "
+"While Look-See has taken "
+"care to store this data "
+"efficiently, it can "
+"still add up over time."
+msgstr ""
+
+#: admin/scan.php:121
+msgid ""
+"Enable this option to "
+"have old records for "
+"completed scans "
+"automatically removed."
+msgstr ""
+
+#: admin/scan.php:124
+msgid ""
+"This option specifies "
+"the maximum number of "
+"completed scans to store "
+"in the database."
+msgstr ""
+
+#: admin/scan.php:125
+msgid ""
+"Certain scan operations "
+"rely on there being a "
+"decent history, so try "
+"to avoid setting this "
+"too low. For most sites, "
+"a value of 10 is "
+"probably fine."
+msgstr ""
+
+#: admin/scan.php:126
+msgid ""
+"Pruning is applied each "
+"time a new scan "
+"completes. If the total "
+"number of completed "
+"scans exceeds your "
+"limit, the excess will "
+"be removed (oldest "
+"first)."
+msgstr ""
+
+#: admin/scan.php:129
+msgid ""
+"This is a core WordPress "
+"file. It is very unusual "
+"for core files to be "
+"modified from their "
+"original versions. Give "
+"this one extra attention."
+msgstr ""
+
+#: admin/scan.php:132
+msgid ""
+"This is file is part of "
+"a WordPress plugin and "
+"so it is unusual to see "
+"local deviations from "
+"the official source "
+"files."
+msgstr ""
+
+#: admin/scan.php:134
+#: admin/scan.php:142
+#, php-format
+msgid ""
+"That said, plugin and "
+"theme authors sometimes "
+"push code changes to "
+"WordPress without "
+"bumping the version "
+"number. This can throw "
+"older \"versions\" out "
+"of sync with the "
+"\"matching\" source "
+"hosted at %s."
+msgstr ""
+
+#: admin/scan.php:137
+#: admin/scan.php:145
+msgid ""
+"Still, you should "
+"definitely take a look "
+"and make sure nothing "
+"bad is behind it. :)"
+msgstr ""
+
+#: admin/scan.php:140
+msgid ""
+"This is file is part of "
+"a WordPress theme and so "
+"it is unusual to see "
+"local deviations from "
+"the official source "
+"files."
+msgstr ""
+
+#: admin/scan.php:149
+#, php-format
+msgid ""
+"On Unix systems, every "
+"file and directory has a "
+"set of %s that dictates "
+"who can do what with it. "
+"This is a very important "
+"and basic security "
+"feature, particularly "
+"for web servers. When "
+"permissions are too lax, "
+"hackers might be able to "
+"do bad things."
+msgstr ""
+
+#: admin/scan.php:150
+#: admin/scan.php:162
+msgid "permissions"
+msgstr ""
+
+#: admin/scan.php:153
+#, php-format
+msgid ""
+"\"Safe\" file "
+"permissions will vary "
+"from server-to-server, "
+"but will typically "
+"either be %s or %s (your "
+"files are set to %s). "
+"Look-See will flag any "
+"files with looser "
+"permissions."
+msgstr ""
+
+#: admin/scan.php:161
+#, php-format
+msgid ""
+"On Unix systems, every "
+"file and directory is "
+"assigned a specific "
+"\"user\" and \"group\". "
+"When combined with its "
+"%s, this determines "
+"whether or not a "
+"particular user is "
+"allowed to read, write, "
+"or execute a given path."
+msgstr ""
+
+#: admin/scan.php:164
+msgid ""
+"Generally speaking, all "
+"files for a given web "
+"site should usually "
+"belong to the same "
+"\"user:group\", and that "
+"\"user:group\" should "
+"have little to no system "
+"access beyond what is "
+"relevant for displaying "
+"the web site. "
+"Inconsistencies in "
+"ownership can result in "
+"permission conflicts "
+"(like an inability to "
+"read or write files), or "
+"allow a hacker to gain "
+"wider system access than "
+"they should."
+msgstr ""
+
+#: admin/scan.php:166
+#, php-format
+msgid ""
+"Look-See will flag any "
+"files with a user:group "
+"pair other than %s, the "
+"default for your server."
+msgstr ""
+
+#: admin/scan.php:171
+msgid ""
+"WordPress designates "
+"certain areas for user-"
+"supplied content to "
+"reside. Unexpected files "
+"appearing outside of "
+"these areas is unusual "
+"and deserves your "
+"attention."
+msgstr ""
+
+#: admin/scan.php:172
+msgid ""
+"In some cases, these "
+"might be auto-generated "
+"files from plugins or "
+"themes, but in others, "
+"they might be a hidden "
+"backdoor left behind by "
+"a hacker."
+msgstr ""
+
+#: admin/scan.php:175
+msgid ""
+"The following files are "
+"normally part of fresh "
+"installs, but for some "
+"reason are missing on "
+"your system. This might "
+"mean your installation "
+"was only partly "
+"successful, or maybe a "
+"theme or plugin is just "
+"doing something odd."
+msgstr ""
+
+#: admin/scan.php:178
+msgid ""
+"Generally speaking, "
+"nobody should be making "
+"changes to the main "
+"WordPress files, or any "
+"of its themes or "
+"plugins. Those files "
+"will change whenever "
+"updates are applied, of "
+"course, but otherwise "
+"they should be identical "
+"to the hosted versions."
+msgstr ""
+
+#: admin/scan.php:179
+msgid ""
+"These files have been "
+"flagged as *not* "
+"matching their clean "
+"counterparts. Please "
+"take a look at them, and "
+"proceed with caution."
+msgstr ""
+
+#: admin/scan.php:180
+msgid ""
+"Now, before you have a "
+"heart attack, note that "
+"there are two reasons "
+"this could happen that "
+"do not involve hacking: "
+"1) your server modified "
+"the files during the "
+"initial upload; 2) "
+"changes to the plugin or "
+"theme were published to "
+"WordPress, but the "
+"author forgot to bump "
+"the version."
+msgstr ""
+
+#: admin/scan.php:183
+msgid ""
+"These are obsolete files "
+"left over from older "
+"versions of WordPress. "
+"They are not being used "
+"any more and should be "
+"removed. At best, they "
+"are wasting disk space; "
+"at worst, they might "
+"contain exploitable code "
+"that could put your site "
+"at risk."
+msgstr ""
+
+#: admin/scan.php:186
+msgid ""
+"All too often, "
+"development files – "
+"logs, backups, database "
+"dumps, etc. – are "
+"accidentally copied over "
+"to production "
+"environments, leaving "
+"them visible to the "
+"public. You should "
+"review and remove any "
+"such files, otherwise "
+"the information they "
+"contain could help "
+"hackers better target "
+"attacks against your web "
+"site."
+msgstr ""
+
+#: admin/scan.php:188
+#, php-format
+msgid ""
+"And just in case you "
+"were thinking, \"Well, "
+"these aren't linked to "
+"from anywhere, I'm safe!"
+"\" remember that humans "
+"are not very creative. "
+"Robots scour the "
+"internet looking for "
+"file variations like %s, "
+"%s, etc. If you really "
+"need to keep these files "
+"on the server, just move "
+"them above the web root "
+"to prevent them from "
+"being loaded in a web "
+"browser."
+msgstr ""
+
+#: admin/scan.php:195
+#, php-format
+msgid ""
+"By default, WordPress "
+"determines what kind of "
+"content may or may not "
+"be uploaded by looking "
+"at the file name. For "
+"example, a file called "
+"%s will be allowed "
+"because %s is allowed."
+msgstr ""
+
+#: admin/scan.php:199
+msgid ""
+"Unfortunately this "
+"ignores the fact that "
+"file names are "
+"completely arbitrary. "
+"Hackers can bypass name-"
+"based safeguards by "
+"simply giving a file a "
+"different extension. "
+"Haha."
+msgstr ""
+
+#: admin/scan.php:200
+msgid ""
+"Certain methods exist "
+"for determining a file's "
+"*true* type by examining "
+"its structure. Look-See "
+"performs these tests and "
+"will flag any files that "
+"are suspected to be "
+"something other than "
+"they appear."
+msgstr ""
+
+#: admin/scan.php:201
+msgid ""
+"This detection is not "
+"fool-proof, so please "
+"take a look at the "
+"flagged files and ignore "
+"any that are actually "
+"fine."
+msgstr ""
+
+#: admin/scan.php:205
+#, php-format
+msgid ""
+"Look-See includes "
+"several checks for "
+"dangerous PHP functions "
+"like %s, which is used "
+"to execute arbitrary PHP "
+"commands passed as a "
+"data string. This is a "
+"*very* bad idea. Haha."
+msgstr ""
+
+#: admin/scan.php:208
+msgid ""
+"If you discover that a "
+"plugin or theme is "
+"intentionally using this "
+"function, it is highly "
+"recommended you "
+"uninstall it and find a "
+"safer alternative."
+msgstr ""
+
+#: admin/scan.php:211
+msgid ""
+"Hackers usually attempt "
+"to obfuscate their "
+"malicious code by "
+"messing with the "
+"encoding or breaking it "
+"up into different "
+"functions. Look-See "
+"scans PHP files for "
+"long, unbroken strings "
+"of gibberish."
+msgstr ""
+
+#: admin/scan.php:212
+msgid ""
+"Being gibberish, it's "
+"impossible for the "
+"plugin to definitively "
+"say, \"This is bad.\", "
+"so please manually "
+"review the flagged files "
+"to see if there is "
+"anything you should be "
+"concerned about."
+msgstr ""
+
+#: admin/scan.php:216
+#, php-format
+msgid ""
+"%s is a helpful "
+"developer function that "
+"dumps a ton of "
+"environmental "
+"information to the "
+"screen. That is A-OK "
+"when a site is being "
+"developed, but "
+"references should be "
+"removed once it is live, "
+"otherwise hackers can "
+"benefit from all the "
+"details it provides."
+msgstr ""
+
+#: admin/scan.php:222
+#, php-format
+msgid ""
+"Look-See scans PHP files "
+"for wrapper functions "
+"like %s, %s, %s, %s, and "
+"%s that allow PHP to "
+"directly run shell "
+"commands. As you might "
+"suspect, this can have "
+"disastrous security "
+"consequences. Haha."
+msgstr ""
+
+#: admin/scan.php:229
+msgid ""
+"Not all implementations "
+"of these functions are "
+"inherently evil, but if "
+"handled improperly, "
+"could be bad news. "
+"Please review any "
+"flagged items carefully."
+msgstr ""
+
+#: admin/scan.php:232
+msgid ""
+"The server was unable to "
+"scan these files. This "
+"usually means the file "
+"was too big for the poor "
+"server to handle, but "
+"could also indicate an "
+"inability for PHP to "
+"read it at all. It is "
+"worth manually double-"
+"checking these files to "
+"ensure their permissions "
+"are correctly set, etc."
+msgstr ""
+
+#: admin/scan.php:241
+#: admin/scan.php:375
+msgid "New File Scan"
+msgstr ""
+
+#: admin/scan.php:242
+msgid "Scan History"
+msgstr ""
+
+#: admin/scan.php:243
+msgid "Scan Results"
+msgstr ""
+
+#: admin/scan.php:246
+#: lib/blobfolio/wp/looksee/scan.php:517
+msgid ""
+"Initializing the scan."
+msgstr ""
+
+#: admin/scan.php:247
+#: lib/blobfolio/wp/looksee/scan.php:518
+msgid ""
+"Collecting WordPress "
+"checksums."
+msgstr ""
+
+#: admin/scan.php:248
+#: lib/blobfolio/wp/looksee/scan.php:519
+msgid ""
+"Collecting plugin "
+"checksums."
+msgstr ""
+
+#: admin/scan.php:249
+#: lib/blobfolio/wp/looksee/scan.php:520
+msgid ""
+"Collecting theme "
+"checksums."
+msgstr ""
+
+#: admin/scan.php:250
+#: lib/blobfolio/wp/looksee/scan.php:521
+msgid ""
+"Searching the local "
+"filesystem."
+msgstr ""
+
+#: admin/scan.php:251
+#: lib/blobfolio/wp/looksee/scan.php:522
+msgid ""
+"Finishing up the pre-"
+"scan."
+msgstr ""
+
+#: admin/scan.php:252
+#: lib/blobfolio/wp/looksee/scan.php:523
+msgid "Scanning files."
+msgstr ""
+
+#: admin/scan.php:253
+msgid "Done!"
+msgstr ""
+
+#: admin/scan.php:316
+msgid ""
+"Look-See file scan "
+"operations are pretty "
+"resource-intensive — "
+"there's a lot to check! "
+"— but they should not be "
+"taking anywhere near as "
+"much time to complete as "
+"they have been for you."
+msgstr ""
+
+#: admin/scan.php:319
+#, php-format
+msgid ""
+"If this notice persists, "
+"chances are your current "
+"web hosting is… not "
+"good. %s Haha."
+msgstr ""
+
+#: admin/scan.php:320
+msgid "Not good at all."
+msgstr ""
+
+#: admin/scan.php:323
+msgid ""
+"In the short term, you "
+"might be able to speed "
+"up scans by adding "
+"custom ignore rules, but "
+"you should really "
+"consider switching to a "
+"more competent hosting "
+"provider. Otherwise it "
+"is just money down the "
+"drain."
+msgstr ""
+
+#: admin/scan.php:338
+msgid ""
+"A file scan is underway. "
+"Please do not leave this "
+"page until it has "
+"finished."
+msgstr ""
+
+#: admin/scan.php:341
+msgid ""
+"Your settings have been "
+"saved!"
+msgstr ""
+
+#: admin/scan.php:344
+msgid ""
+"The cancel request has "
+"been saved. The scan "
+"should stop soon."
+msgstr ""
+
+#: admin/scan.php:360
+#: admin/scan.php:818
+#: lib/blobfolio/wp/looksee/admin.php:569
+#: lib/blobfolio/wp/looksee/scan.php:1508
+msgid "Scan"
+msgstr ""
+
+#: admin/scan.php:380
+msgid ""
+"Welcome to the file scan!"
+msgstr ""
+
+#: admin/scan.php:381
+msgid ""
+"This scan will let you "
+"know if any official "
+"WordPress files – the "
+"program itself, as well "
+"as any hosted plugins "
+"and themes – have been "
+"modified from their "
+"original versions. "
+"Content that can't be "
+"matched this way will "
+"instead be checked from "
+"scan-to-scan, letting "
+"you know what is new, "
+"missing, or changed "
+"since the last scan."
+msgstr ""
+
+#: admin/scan.php:382
+msgid ""
+"Look-See also goes a bit "
+"deeper, finding "
+"potentially malicious "
+"code lurking in PHP "
+"files, locating "
+"developer files and "
+"backups (which shouldn't "
+"be stored on a public "
+"server), and other tasks "
+"of this sort."
+msgstr ""
+
+#: admin/scan.php:383
+msgid ""
+"Depending on the size of "
+"the site and power of "
+"the server, scans can "
+"take a little while to "
+"complete. Once you "
+"begin, do not navigate "
+"away from this page. The "
+"results will be "
+"displayed as soon as "
+"they are ready."
+msgstr ""
+
+#: admin/scan.php:390
+msgid "Start Scan!"
+msgstr ""
+
+#: admin/scan.php:394
+msgid "Scan Status"
+msgstr ""
+
+#: admin/scan.php:415
+msgid "Cancel Scan"
+msgstr ""
+
+#: admin/scan.php:425
+#: admin/scan.php:891
+msgid "Settings"
+msgstr ""
+
+#: admin/scan.php:432
+msgid "Skip Cache"
+msgstr ""
+
+#: admin/scan.php:441
+msgid "Skip Images"
+msgstr ""
+
+#: admin/scan.php:450
+msgid "Skip Audio/Video"
+msgstr ""
+
+#: admin/scan.php:457
+msgid "Max File Size"
+msgstr ""
+
+#: admin/scan.php:463
+msgid "MB"
+msgstr ""
+
+#: admin/scan.php:467
+msgid "Batch Size"
+msgstr ""
+
+#: admin/scan.php:473
+msgid "files"
+msgstr ""
+
+#: admin/scan.php:478
+msgid "Ignore Path(s)"
+msgstr ""
+
+#: admin/scan.php:487
+#, php-format
+msgid ""
+"Enter any custom "
+"exclusion rules above, "
+"one per line. Wildcards "
+"like %s are supported. "
+"Paths should be relative "
+"to the base directory, "
+"%s."
+msgstr ""
+
+#: admin/scan.php:495
+#: admin/scan.php:577
+msgid "Save Settings"
+msgstr ""
+
+#: admin/scan.php:517
+msgid "Completed Scans"
+msgstr ""
+
+#: admin/scan.php:522
+#: admin/scan.php:827
+#: lib/blobfolio/wp/looksee/cli/scan.php:327
+#: lib/blobfolio/wp/looksee/cli/scan.php:432
+msgid "Finished"
+msgstr ""
+
+#: admin/scan.php:524
+#: admin/scan.php:839
+#: lib/blobfolio/wp/looksee/cli/scan.php:330
+#: lib/blobfolio/wp/looksee/cli/scan.php:435
+#: lib/blobfolio/wp/looksee/scan.php:1442
+msgid "Files"
+msgstr ""
+
+#: admin/scan.php:525
+#: admin/scan.php:843
+#: lib/blobfolio/wp/looksee/cli/scan.php:331
+#: lib/blobfolio/wp/looksee/cli/scan.php:436
+#: lib/blobfolio/wp/looksee/scan.php:1443
+msgid "Scanned"
+msgstr ""
+
+#: admin/scan.php:526
+#: admin/scan.php:847
+#: lib/blobfolio/wp/looksee/cli/scan.php:332
+#: lib/blobfolio/wp/looksee/cli/scan.php:437
+#: lib/blobfolio/wp/looksee/scan.php:1444
+msgid "Skipped"
+msgstr ""
+
+#: admin/scan.php:527
+#: admin/scan.php:628
+#: lib/blobfolio/wp/looksee/cli/scan.php:333
+#: lib/blobfolio/wp/looksee/cli/scan.php:438
+#: lib/blobfolio/wp/looksee/scan.php:1445
+msgid "Warnings"
+msgstr ""
+
+#: admin/scan.php:542
+msgid "Details"
+msgstr ""
+
+#: admin/scan.php:555
+msgid "Data Retention"
+msgstr ""
+
+#: admin/scan.php:562
+msgid "Enable Pruning"
+msgstr ""
+
+#: admin/scan.php:569
+msgid "Maximum Scans"
+msgstr ""
+
+#: admin/scan.php:606
+msgid "All Good!"
+msgstr ""
+
+#: admin/scan.php:607
+msgid "Incomplete Scan"
+msgstr ""
+
+#: admin/scan.php:610
+msgid ""
+"This scan did not turn "
+"up anything unusual."
+msgstr ""
+
+#: admin/scan.php:613
+msgid ""
+"This scan did not finish "
+"running."
+msgstr ""
+
+#: admin/scan.php:621
+msgid "Filter"
+msgstr ""
+
+#: admin/scan.php:623
+msgid "All Warnings"
+msgstr ""
+
+#: admin/scan.php:635
+msgid ""
+"The following warnings "
+"were flagged during the "
+"scan. These items are "
+"not necessarily dire, "
+"but you should review "
+"each issue carefully."
+msgstr ""
+
+#: admin/scan.php:641
+#: admin/scan.php:766
+#: lib/blobfolio/wp/looksee/cli/scan.php:457
+#: lib/blobfolio/wp/looksee/scan.php:1452
+msgid "Warning"
+msgstr ""
+
+#: admin/scan.php:642
+#: admin/scan.php:701
+#: admin/scan.php:767
+#: lib/blobfolio/wp/looksee/cli/scan.php:459
+#: lib/blobfolio/wp/looksee/cli/scan.php:484
+#: lib/blobfolio/wp/looksee/scan.php:1454
+#: lib/blobfolio/wp/looksee/scan.php:1486
+msgid "File"
+msgstr ""
+
+#: admin/scan.php:643
+#: admin/scan.php:768
+msgid "Actions"
+msgstr ""
+
+#: admin/scan.php:690
+msgid "File Changes"
+msgstr ""
+
+#: admin/scan.php:694
+msgid ""
+"The following files "
+"differ from their "
+"official counterparts, "
+"or have changed since "
+"the last time a scan was "
+"performed."
+msgstr ""
+
+#: admin/scan.php:707
+#: lib/blobfolio/wp/looksee/cli/checksums.php:216
+#: lib/blobfolio/wp/looksee/cli/scan.php:487
+#: lib/blobfolio/wp/looksee/scan.php:1476
+msgid "Modified"
+msgstr ""
+
+#: admin/scan.php:717
+#: lib/blobfolio/wp/looksee/cli/scan.php:489
+#: lib/blobfolio/wp/looksee/scan.php:1478
+msgid "New"
+msgstr ""
+
+#: admin/scan.php:727
+#: lib/blobfolio/wp/looksee/cli/scan.php:488
+#: lib/blobfolio/wp/looksee/scan.php:1477
+msgid "Deleted"
+msgstr ""
+
+#: admin/scan.php:744
+msgid ""
+"Notices: Third-Party "
+"Content"
+msgstr ""
+
+#: admin/scan.php:751
+#, php-format
+msgid ""
+"The following files %s "
+"match clean copies from "
+"WordPress — all good "
+"there! — but the Look-"
+"See scan still raised "
+"some flags."
+msgstr ""
+
+#: admin/scan.php:752
+#: admin/scan.php:759
+msgid "do"
+msgstr ""
+
+#: admin/scan.php:758
+msgid ""
+"This doesn't necessarily "
+"mean that anything is "
+"wrong, but if you have "
+"an eye for code, you "
+"should double-check the "
+"authors didn't do "
+"something "
+"(unintentionally) "
+"dangerous."
+msgstr ""
+
+#: admin/scan.php:823
+msgid "Started"
+msgstr ""
+
+#: admin/scan.php:831
+#: lib/blobfolio/wp/looksee/cli/scan.php:328
+#: lib/blobfolio/wp/looksee/cli/scan.php:433
+msgid "Elapsed"
+msgstr ""
+
+#: admin/scan.php:856
+msgid "Legend"
+msgstr ""
+
+#: admin/scan.php:863
+msgid "View File"
+msgstr ""
+
+#: admin/scan.php:870
+msgid "Fix Issue"
+msgstr ""
+
+#: admin/scan.php:877
+msgid "Ignore File"
+msgstr ""
+
+#: admin/scan.php:884
+msgid "Delete File"
+msgstr ""
+
+#: admin/scan.php:896
+msgid "Skip"
+msgstr ""
+
+#: admin/scan.php:898
+msgid "Cache"
+msgstr ""
+
+#: admin/scan.php:899
+msgid "Audio/Video"
+msgstr ""
+
+#: admin/scan.php:900
+msgid "Images"
+msgstr ""
+
+#: admin/scan.php:905
+msgid "Max Size"
+msgstr ""
+
+#: admin/scan.php:914
+msgid "Sources"
+msgstr ""
+
+#: admin/scan.php:919
+#: lib/blobfolio/wp/looksee/cli.php:237
+msgid "WordPress"
+msgstr ""
+
+#: admin/scan.php:956
+msgid "Last Chance"
+msgstr ""
+
+#: admin/scan.php:961
+#, php-format
+msgid ""
+"Are you absolutely sure "
+"you want to delete %s? "
+"This cannot be undone, "
+"and if this file is "
+"required — by a theme, "
+"plugin, blog post, etc. "
+"— things could break."
+msgstr ""
+
+#: admin/scan.php:964
+#: admin/scan.php:972
+msgid ""
+"Please make sure you "
+"have a full backup of "
+"your site files and "
+"database before making "
+"changes to the "
+"filesystem."
+msgstr ""
+
+#: admin/scan.php:969
+#, php-format
+msgid ""
+"Are you sure you want "
+"Look-See to try to "
+"automatically fix some "
+"of the issues affecting "
+"%s?"
+msgstr ""
+
+#: admin/scan.php:977
+#, php-format
+msgid ""
+"Are you sure you would "
+"like to ignore %s from "
+"future scans? This will "
+"prevent you from "
+"learning of file changes "
+"or other warnings "
+"affecting this file."
+msgstr ""
+
+#: admin/scan.php:980
+msgid ""
+"This action is, at "
+"least, reversible. If "
+"you change your mind, "
+"just locate and remove "
+"the ignore entry in the "
+"main scan settings."
+msgstr ""
+
+#: admin/scan.php:984
+msgid "Cancel"
+msgstr ""
+
+#: admin/scan.php:986
+msgid "Proceed"
+msgstr ""
+
+#: bootstrap-fallback.php:32
+msgid ""
+"PHP 5.6.0 or newer is "
+"required."
+msgstr ""
+
+#: bootstrap-fallback.php:36
+#: lib/blobfolio/wp/looksee/cli.php:29
+#: lib/blobfolio/wp/looksee/cli/checksums.php:30
+#: lib/blobfolio/wp/looksee/cli/scan.php:30
+msgid ""
+"This plugin cannot be "
+"used on Multi-Site."
+msgstr ""
+
+#: bootstrap-fallback.php:43
+#, php-format
+msgid ""
+"This plugin requires the "
+"PHP extension %s."
+msgstr ""
+
+#: bootstrap-fallback.php:50
+msgid ""
+"PHP must support basic "
+"hashing algorithms like "
+"SHA512."
+msgstr ""
+
+#: bootstrap-fallback.php:85
+#: lib/blobfolio/wp/looksee/admin.php:83
+#, php-format
+msgid ""
+"Your server does not "
+"meet the requirements "
+"for running %s. You or "
+"your system "
+"administrator should "
+"take a look at the "
+"following:"
+msgstr ""
+
+#: bootstrap-fallback.php:103
+#, php-format
+msgid ""
+"As a *stopgap*, you can "
+"%s the Look-See Security "
+"Scanner plugin to the "
+"legacy *20.x* series. "
+"The legacy series *will "
+"not* receive updates or "
+"development support, so "
+"please ultimately plan "
+"to remove the plugin or "
+"upgrade your server "
+"environment."
+msgstr ""
+
+#: bootstrap-fallback.php:104
+msgid "downgrade"
+msgstr ""
+
+#: bootstrap-fallback.php:134
+msgid ""
+"The plugin has been "
+"automatically disabled."
+msgstr ""
+
+#: bootstrap-fallback.php:177
+msgid ""
+"This will downgrade to "
+"the legacy 20.2.0 "
+"release, which is "
+"compatible with PHP 5.4. "
+"Do not upgrade from the "
+"legacy version until "
+"your server meets the "
+"requirements of the "
+"current release."
+msgstr ""
+
+#: lib/blobfolio/wp/looksee/admin.php:52
+#: lib/blobfolio/wp/looksee/cli/scan.php:166
+#, php-format
+msgid ""
+"Several operations "
+"require the ability to "
+"write changes to the "
+"filesystem. This does "
+"not seem possible under "
+"the current "
+"configuration. See %s "
+"for possible workarounds."
+msgstr ""
+
+#: lib/blobfolio/wp/looksee/admin.php:58
+msgid ""
+"The Look-See Security "
+"Scanner license is not "
+"valid for this domain or "
+"plugin; premium features "
+"have been disabled."
+msgstr ""
+
+#: lib/blobfolio/wp/looksee/admin.php:62
+msgid ""
+"The recommended PHP "
+"extension OpenSSL is "
+"missing; this will slow "
+"down some operations."
+msgstr ""
+
+#: lib/blobfolio/wp/looksee/admin.php:71
+msgid ""
+"The recommended PHP "
+"extension Intl is "
+"missing; you will not be "
+"able to handle "
+"internationalized or "
+"unicode domains."
+msgstr ""
+
+#: lib/blobfolio/wp/looksee/admin.php:127
+#, php-format
+msgid ""
+"%s %s has been released! "
+"Must-Use plugins must be "
+"updated manually, so "
+"click %s to download the "
+"new version."
+msgstr ""
+
+#: lib/blobfolio/wp/looksee/admin.php:458
+#: lib/blobfolio/wp/looksee/admin.php:459
+msgid "File Scan"
+msgstr ""
+
+#: lib/blobfolio/wp/looksee/admin.php:515
+#: lib/blobfolio/wp/looksee/admin.php:516
+msgid "Pro License"
+msgstr ""
+
+#: lib/blobfolio/wp/looksee/admin.php:573
+msgid "Enter License"
+msgstr ""
+
+#: lib/blobfolio/wp/looksee/ajax.php:103
+msgid ""
+"The form had expired. "
+"Please try again."
+msgstr ""
+
+#: lib/blobfolio/wp/looksee/ajax.php:110
+msgid ""
+"You must be logged in to "
+"complete this action."
+msgstr ""
+
+#: lib/blobfolio/wp/looksee/ajax.php:114
+msgid ""
+"You are not authorized "
+"to complete this action."
+msgstr ""
+
+#: lib/blobfolio/wp/looksee/ajax.php:120
+#: lib/blobfolio/wp/looksee/cli.php:33
+#: lib/blobfolio/wp/looksee/cli/checksums.php:34
+#: lib/blobfolio/wp/looksee/cli/scan.php:34
+msgid ""
+"A premium license is "
+"required."
+msgstr ""
+
+#: lib/blobfolio/wp/looksee/ajax.php:223
+#: lib/blobfolio/wp/looksee/ajax.php:268
+msgid ""
+"The file could not be "
+"deleted. Please use FTP "
+"or SSH instead."
+msgstr ""
+
+#: lib/blobfolio/wp/looksee/ajax.php:297
+#: lib/blobfolio/wp/looksee/ajax.php:326
+msgid ""
+"The file could not be "
+"automatically fixed."
+msgstr ""
+
+#: lib/blobfolio/wp/looksee/ajax.php:355
+msgid ""
+"An ignore rule could not "
+"be created "
+"automatically; please "
+"try adding it yourself."
+msgstr ""
+
+#: lib/blobfolio/wp/looksee/ajax.php:404
+#: lib/blobfolio/wp/looksee/ajax.php:429
+msgid ""
+"The requested file "
+"cannot be viewed. Please "
+"use FTP instead."
+msgstr ""
+
+#: lib/blobfolio/wp/looksee/ajax.php:464
+msgid ""
+"The license is not valid."
+msgstr ""
+
+#: lib/blobfolio/wp/looksee/ajax.php:494
+msgid ""
+"Someone else is "
+"currently running their "
+"own scan. Please try "
+"again in a couple "
+"minutes."
+msgstr ""
+
+#: lib/blobfolio/wp/looksee/ajax.php:511
+#: lib/blobfolio/wp/looksee/cli/scan.php:400
+#: lib/blobfolio/wp/looksee/scan.php:501
+msgid "Invalid scan."
+msgstr ""
+
+#: lib/blobfolio/wp/looksee/cli.php:193
+msgid ""
+"No warnings were "
+"detected. Great job!"
+msgstr ""
+
+#: lib/blobfolio/wp/looksee/cli.php:214
+msgid "Author"
+msgstr ""
+
+#: lib/blobfolio/wp/looksee/cli.php:216
+msgid "Copyright"
+msgstr ""
+
+#: lib/blobfolio/wp/looksee/cli.php:217
+msgid "Developer"
+msgstr ""
+
+#: lib/blobfolio/wp/looksee/cli.php:218
+msgid "Domains"
+msgstr ""
+
+#: lib/blobfolio/wp/looksee/cli.php:219
+msgid "Download"
+msgstr ""
+
+#: lib/blobfolio/wp/looksee/cli.php:221
+msgid "External"
+msgstr ""
+
+#: lib/blobfolio/wp/looksee/cli.php:223
+msgid "Installed"
+msgstr ""
+
+#: lib/blobfolio/wp/looksee/cli.php:224
+msgid "Latest"
+msgstr ""
+
+#: lib/blobfolio/wp/looksee/cli.php:225
+msgid "License"
+msgstr ""
+
+#: lib/blobfolio/wp/looksee/cli.php:226
+msgid "Must-Use"
+msgstr ""
+
+#: lib/blobfolio/wp/looksee/cli.php:227
+msgid "N/A"
+msgstr ""
+
+#: lib/blobfolio/wp/looksee/cli.php:229
+#: lib/blobfolio/wp/looksee/scan.php:1453
+#: lib/blobfolio/wp/looksee/scan.php:1485
+msgid "No"
+msgstr ""
+
+#: lib/blobfolio/wp/looksee/cli.php:231
+msgid "Premium"
+msgstr ""
+
+#: lib/blobfolio/wp/looksee/cli.php:232
+msgid "Purchased"
+msgstr ""
+
+#: lib/blobfolio/wp/looksee/cli.php:233
+msgid "Single"
+msgstr ""
+
+#: lib/blobfolio/wp/looksee/cli.php:234
+msgid "Timezone"
+msgstr ""
+
+#: lib/blobfolio/wp/looksee/cli.php:236
+msgid "Upgrade"
+msgstr ""
+
+#: lib/blobfolio/wp/looksee/cli.php:238
+#: lib/blobfolio/wp/looksee/cli/scan.php:465
+#: lib/blobfolio/wp/looksee/cli/scan.php:496
+#: lib/blobfolio/wp/looksee/scan.php:1453
+#: lib/blobfolio/wp/looksee/scan.php:1485
+msgid "Yes"
+msgstr ""
+
+#: lib/blobfolio/wp/looksee/cli/checksums.php:78
+msgid ""
+"Refreshed: WordPress "
+"checksums."
+msgstr ""
+
+#: lib/blobfolio/wp/looksee/cli/checksums.php:83
+msgid ""
+"Core WordPress checkums "
+"could not be pulled."
+msgstr ""
+
+#: lib/blobfolio/wp/looksee/cli/checksums.php:97
+#, php-format
+msgid ""
+"Refreshed: %d plugin "
+"checkums."
+msgstr ""
+
+#: lib/blobfolio/wp/looksee/cli/checksums.php:104
+msgid ""
+"No plugin checksums "
+"could be pulled."
+msgstr ""
+
+#: lib/blobfolio/wp/looksee/cli/checksums.php:118
+#, php-format
+msgid ""
+"Refreshed: %d theme "
+"checkums."
+msgstr ""
+
+#: lib/blobfolio/wp/looksee/cli/checksums.php:125
+msgid ""
+"No theme checksums could "
+"be pulled."
+msgstr ""
+
+#: lib/blobfolio/wp/looksee/cli/checksums.php:158
+msgid "Loading checksums."
+msgstr ""
+
+#: lib/blobfolio/wp/looksee/cli/checksums.php:174
+msgid ""
+"No checksums could be "
+"loaded."
+msgstr ""
+
+#: lib/blobfolio/wp/looksee/cli/checksums.php:183
+#, php-format
+msgid "Scanning %d files."
+msgstr ""
+
+#: lib/blobfolio/wp/looksee/cli/checksums.php:206
+msgid "Missing"
+msgstr ""
+
+#: lib/blobfolio/wp/looksee/cli/checksums.php:226
+#: lib/blobfolio/wp/looksee/cli/checksums.php:231
+msgid "Unreadable"
+msgstr ""
+
+#: lib/blobfolio/wp/looksee/cli/checksums.php:239
+msgid ""
+"All checksums match."
+msgstr ""
+
+#: lib/blobfolio/wp/looksee/cli/checksums.php:244
+msgid ""
+"Not all checksums match."
+msgstr ""
+
+#: lib/blobfolio/wp/looksee/cli/scan.php:200
+msgid ""
+"A scan could not be "
+"started."
+msgstr ""
+
+#: lib/blobfolio/wp/looksee/cli/scan.php:206
+#, php-format
+msgid "Starting Scan #%d."
+msgstr ""
+
+#: lib/blobfolio/wp/looksee/cli/scan.php:215
+#, php-format
+msgid "Resuming Scan #%d."
+msgstr ""
+
+#: lib/blobfolio/wp/looksee/cli/scan.php:225
+msgid "cache"
+msgstr ""
+
+#: lib/blobfolio/wp/looksee/cli/scan.php:228
+msgid "audio/video"
+msgstr ""
+
+#: lib/blobfolio/wp/looksee/cli/scan.php:231
+msgid "images"
+msgstr ""
+
+#: lib/blobfolio/wp/looksee/cli/scan.php:234
+msgid "other"
+msgstr ""
+
+#: lib/blobfolio/wp/looksee/cli/scan.php:238
+msgid "Skipping:"
+msgstr ""
+
+#: lib/blobfolio/wp/looksee/cli/scan.php:246
+#, php-format
+msgid ""
+"Max File Size: %.1f MB"
+msgstr ""
+
+#: lib/blobfolio/wp/looksee/cli/scan.php:274
+#, php-format
+msgid "Finished Scan #%d."
+msgstr ""
+
+#: lib/blobfolio/wp/looksee/cli/scan.php:321
+msgid ""
+"No scans have been "
+"completed."
+msgstr ""
+
+#: lib/blobfolio/wp/looksee/cli/scan.php:326
+msgid "Scan ID"
+msgstr ""
+
+#: lib/blobfolio/wp/looksee/cli/scan.php:355
+msgid "Found scans"
+msgstr ""
+
+#: lib/blobfolio/wp/looksee/cli/scan.php:405
+msgid ""
+"This scan has not yet "
+"completed."
+msgstr ""
+
+#: lib/blobfolio/wp/looksee/cli/scan.php:418
+msgid ""
+"You have disabled all "
+"output. Haha."
+msgstr ""
+
+#: lib/blobfolio/wp/looksee/cli/scan.php:458
+#: lib/blobfolio/wp/looksee/cli/scan.php:483
+#: lib/blobfolio/wp/looksee/scan.php:1453
+#: lib/blobfolio/wp/looksee/scan.php:1485
+msgid "Core"
+msgstr ""
+
+#: lib/blobfolio/wp/looksee/core.php:157
+msgid ""
+"The WordPress.org API "
+"could not be reached."
+msgstr ""
+
+#: lib/blobfolio/wp/looksee/core.php:201
+msgid ""
+"The WordPress Core "
+"checksums could not be "
+"saved."
+msgstr ""
+
+#: lib/blobfolio/wp/looksee/license.php:558
+#: lib/blobfolio/wp/looksee/scan.php:229
+#, php-format
+msgid ""
+"The required method \"%s"
+"\" does not exist for %s"
+msgstr ""
+
+#: lib/blobfolio/wp/looksee/scan.php:321
+msgid "File Permissions"
+msgstr ""
+
+#: lib/blobfolio/wp/looksee/scan.php:322
+msgid "File Owner"
+msgstr ""
+
+#: lib/blobfolio/wp/looksee/scan.php:323
+msgid "Extra Core File"
+msgstr ""
+
+#: lib/blobfolio/wp/looksee/scan.php:324
+msgid "Missing Core File"
+msgstr ""
+
+#: lib/blobfolio/wp/looksee/scan.php:325
+msgid "Modified Core File"
+msgstr ""
+
+#: lib/blobfolio/wp/looksee/scan.php:326
+msgid ""
+"Deprecated Core File"
+msgstr ""
+
+#: lib/blobfolio/wp/looksee/scan.php:327
+msgid ""
+"Developer/System File"
+msgstr ""
+
+#: lib/blobfolio/wp/looksee/scan.php:328
+msgid "File Type"
+msgstr ""
+
+#: lib/blobfolio/wp/looksee/scan.php:329
+msgid "eval()"
+msgstr ""
+
+#: lib/blobfolio/wp/looksee/scan.php:330
+msgid "Unusual Data"
+msgstr ""
+
+#: lib/blobfolio/wp/looksee/scan.php:331
+msgid "phpinfo()"
+msgstr ""
+
+#: lib/blobfolio/wp/looksee/scan.php:332
+msgid "Unix System Call"
+msgstr ""
+
+#: lib/blobfolio/wp/looksee/scan.php:333
+msgid "Timeout Error"
+msgstr ""
+
+#: lib/blobfolio/wp/looksee/scan.php:524
+msgid ""
+"The scan has completed."
+msgstr ""
+
+#: lib/blobfolio/wp/looksee/scan.php:525
+msgid ""
+"The scan encountered an "
+"error."
+msgstr ""
+
+#: lib/blobfolio/wp/looksee/scan.php:526
+msgid "The scan timed out."
+msgstr ""
+
+#: lib/blobfolio/wp/looksee/scan.php:527
+msgid ""
+"The scan has been "
+"aborted."
+msgstr ""
+
+#: lib/blobfolio/wp/looksee/scan.php:1431
+#, php-format
+msgid ""
+"The %s file scan for %s "
+"completed in %s."
+msgstr ""
+
+#: lib/blobfolio/wp/looksee/scan.php:1438
+msgid ""
+"Unfortunately this scan "
+"was not successful due "
+"to an error."
+msgstr ""
+
+#: lib/blobfolio/wp/looksee/scan.php:1458
+msgid "warnings"
+msgstr ""
+
+#: lib/blobfolio/wp/looksee/scan.php:1491
+msgid "file-changes"
+msgstr ""
